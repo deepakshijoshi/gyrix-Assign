@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>A Hotel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <div class="bs-example">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="#" class="navbar-brand">
+                <img src="data:image/png;base64,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"
+                    height="60" alt="A Hotel">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Specials</a>
+                    <a href="#" class="nav-item nav-link">Photos</a>
+                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Bookings</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="jumbotron text-center">
+        <h1>A Hotel</h1>
+        <p>Your stop destination !!!</p>
+    </div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="h2.jpg" alt="" width="100%" height=500px align="center">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.insider.com/5b50aa5001180c3c008b46d2?width=1100&format=jpeg&auto=webp" alt="" width=100% height=500px>
+            </div>
+            <div class="carousel-item">
+                <img src="https://s3-ap-southeast-1.amazonaws.com/newworldhotels-assets/wp-content/uploads/2014/05/NWGYG_Tian_Chinese_Restaurant_1200x612.jpg" alt="" width=100% height=500px>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+    <br/>
+    <br/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Beautiful Rooms</h3>
+                <img src="room.jpg" class="rounded-circle" alt="" width="200" height="200">
+                <br/>
+                <br/>
+                <p>Contemporary and individually decorated, each of Hollywood Hotel’s smoke-free guest rooms and suites offers complete comfort without sacrificing our classic style.</p>
+
+            </div>
+            <div class="col-sm-4">
+                <h3>Cuisine</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA4ieQHLS-dIyjjdCmsP2ZsucMZC9blo1XpQ&usqp=CAU" class="rounded-circle" alt="" width="200" height="200">
+                <br/>
+                <br/>
+                <p>You’ll need some energy before you hit the town, so fuel up before you head out with Hollywood Hotel’s complimentary hot American breakfast buffet, featuring everything from cereal to omelets to coffee. Compliments to our beloved Chef
+                    Hugo.
+                </p>
+
+            </div>
+            <div class="col-sm-4">
+                <h3>Wonderful View</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLQ6mkT--_wPPaSFX6gSXSMYWomrSq4mdQQw&usqp=CAU" class="rounded-circle" alt="" width="200" height="200">
+                <br/>
+                <br/>
+                <p>Today, Hollywood Hotel combines cosmopolitan California architecture and vintage Hollywood glamour, welcoming guests through a beautifully designed porte-cochère into one of the most reasonably priced, 100% non-smoking hotels in the city..
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <p align="center" class="footer-company-name"><b>Deepakshi Joshi &copy; 2020</b></p>
+
+</body>
+
+</html>
